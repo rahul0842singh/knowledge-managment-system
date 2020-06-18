@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sample.css" type="text/css">
+    <title>Document</title>
+    <script src="js/sample.js" type="text/javascript"></script>
+</head>
+<body>
+    <form onsubmit="return (phonenumbervalidation() && space() && validateemail() && validatedob())" action=" " method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td class="badge badge-primary text-wrap textwrap1 ">    <p class="firstname">First Name :</p></td>
+                <p class="validateusername"  id="eleven"> Invalid Firstname </p>
+                <td> <input type="text" name="firstname" required    id="one" class="input1"/></td> 
+            </tr>
+
+            <tr>
+                <td  class="badge badge-primary text-wrap textwrap2 " class="middlename"><p class="middlename">Middle Name :</p></td>
+                <p class="validmiddlename" id="twe"> Invalid MiddleName </p>
+                <td> <input type="text" name="middlename"  required  id="two" class="input1"/></td>
+            </tr>
+
+            <tr>
+                <td class="badge badge-primary text-wrap textwrap3 "><p  class="lastname1">Last Name :</p></td>
+                <p class="validlastname" id="thir"> Invalid LastName </p>
+                <td> <input type="text" name="lastname"  class="input1"  required id="three"/></td>
+            </tr>
+            
+			<tr>
+				<td class="badge badge-primary text-wrap textwrap4">   <p class="email1">Email :</p></td>
+				<p id="email123" class="validemail"> Invalid Email </p>
+				<td> <input type="text" name="email"  required  class="input2"   id="email1"/></td>
+            </tr>
+            
+            
+			<tr>
+				<td class="badge badge-primary text-wrap textwrap7">   <p class="phonenumber1">Phonenumber :</p></td>
+				<p class="validphonenumber" id="phone1"> Invalid Phonenumber </p>
+				<td> <input type="text" name="phonenumber"   required class="input4" id="eight"/></td>
+			</tr>
+
+            
+			<tr>
+                <td><input class="btn btn-primary button1" type="submit" name="techno" value="Submit"></td>
+                </tr>
+</table>
+</form>    
+
+</body>
+</html>
